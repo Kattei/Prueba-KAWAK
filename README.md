@@ -1,7 +1,9 @@
 # Prueba-KAWAK
 
 
-PHP V PHP Version 8.0.18
+PHP V 8.0.18
+
+PHP Version 8.0.18
 
 # instalación
 

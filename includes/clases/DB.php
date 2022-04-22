@@ -44,7 +44,7 @@ class DB {
     
     function modificarDocumento($data){
         $this->conexion->query("UPDATE doc_documento set doc_nombre = '".$data["documento"]."', doc_contenido = '".$data["contenido"]."',"
-                . " doc_id_tipo = '".$data["doc_id_tipo"]."', doc_id_proceso = '".$data["doc_id_proceso"]."' where doc_id = ".$data["doc_id"]);
+                . " doc_id_tipo = '".$data["doc_id_tipo"]."', doc_id_proceso = '".$data["doc_id_proceso"]."', doc_id = (select max(doc_id)+1 from doc_documento) where doc_id = ".$data["doc_id"]);
     }
     
     function agregar($data){

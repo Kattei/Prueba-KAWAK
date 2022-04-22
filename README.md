@@ -48,3 +48,18 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (user,password) VALUES ("kathe","a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3");
 
+
+# Configuración
+
+Archivo de configuracion contiene el tiempo de sesion 
+
+Datos de conexion a la base de datos
+
+Dirección del proyecto
+
+
+# USUARIO Y CONTRASEÑA
+usuario:  kathe
+contraseña: 123
+
+

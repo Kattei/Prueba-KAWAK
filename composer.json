@@ -1,0 +1,7 @@
+{
+    "require": {
+        "smarty/smarty": "^4.1",
+        "components/jquery": "^3.6",
+        "datatables/datatables": "^1.10"
+    }
+}

@@ -3,7 +3,7 @@
 
 PHP V PHP Version 8.0.18
 
-#instalación
+# instalación
 
 git clone https://github.com/Kattei/Prueba-KAWAK.git
 
